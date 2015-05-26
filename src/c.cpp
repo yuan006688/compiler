@@ -49,21 +49,6 @@ int main(int argc, char const *argv[])
 						char yun=optr.top();
 						optr.pop();
 						opnd.push(suan(m,n,yun));
-						/*
-						if(next == ')'){
-							first++;
-							next=all[first];
-							optr.pop();
-							//break;
-						}
-
-						//下边这一段是第一次多此一举加进去的，没弄明白程序所导致的
-						if(next != '#'){
-							optr.push(next);
-							first++;
-							next=all[first];
-						}
-						*/
 						break;
 				}
 			}
